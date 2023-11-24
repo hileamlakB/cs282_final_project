@@ -1,0 +1,30 @@
+icd9_code,long_title
+41081,"Acute myocardial infarction of other specified sites, initial episode of care"
+41091,"Acute myocardial infarction of unspecified site, initial episode of care"
+4110,Postmyocardial infarction syndrome
+41082,"Acute myocardial infarction of other specified sites, subsequent episode of care"
+41092,"Acute myocardial infarction of unspecified site, subsequent episode of care"
+41080,"Acute myocardial infarction of other specified sites, episode of care unspecified"
+41090,"Acute myocardial infarction of unspecified site, episode of care unspecified"
+41032,"Acute myocardial infarction of inferoposterior wall, subsequent episode of care"
+41030,"Acute myocardial infarction of inferoposterior wall, episode of care unspecified"
+412,Old myocardial infarction
+41011,"Acute myocardial infarction of other anterior wall, initial episode of care"
+41001,"Acute myocardial infarction of anterolateral wall, initial episode of care"
+41041,"Acute myocardial infarction of other inferior wall, initial episode of care"
+41021,"Acute myocardial infarction of inferolateral wall, initial episode of care"
+41031,"Acute myocardial infarction of inferoposterior wall, initial episode of care"
+41052,"Acute myocardial infarction of other lateral wall, subsequent episode of care"
+41050,"Acute myocardial infarction of other lateral wall, episode of care unspecified"
+41181,Acute coronary occlusion without myocardial infarction
+41012,"Acute myocardial infarction of other anterior wall, subsequent episode of care"
+41010,"Acute myocardial infarction of other anterior wall, episode of care unspecified"
+41002,"Acute myocardial infarction of anterolateral wall, subsequent episode of care"
+41000,"Acute myocardial infarction of anterolateral wall, episode of care unspecified"
+41042,"Acute myocardial infarction of other inferior wall, subsequent episode of care"
+41040,"Acute myocardial infarction of other inferior wall, episode of care unspecified"
+41022,"Acute myocardial infarction of inferolateral wall, subsequent episode of care"
+41020,"Acute myocardial infarction of inferolateral wall, episode of care unspecified"
+41051,"Acute myocardial infarction of other lateral wall, initial episode of care"
+V1253,Personal history of sudden cardiac arrest
+42979,"Certain sequelae of myocardial infarction, not elsewhere classified, other"
