@@ -58,3 +58,25 @@ This README provides an overview of how I utilized Google Cloud services to mana
 ---
 
 *Note: Replace placeholder text (e.g., `[MY_BUCKET_NAME]`) with actual bucket and project names.*
+
+
+## MIMIC-III Data Processing and Analysis with Google BigQuery
+
+### Loading Data into BigQuery
+
+The MIMIC-III dataset was stored in Google Cloud Storage and loaded into BigQuery for analysis. A bash script automated the creation of BigQuery tables from CSV files using schema auto-detection.
+
+```bash
+# Script to load CSV files into BigQuery
+for file in $(gsutil ls gs://hilea-mimmic/*.csv); do
+    filename=$(basename $file .csv)
+    bq load --source_format=CSV --autodetect [DATASET_NAME].$filename $file
+done
+```
+
+Replace `[DATASET_NAME]` with your dataset name.
+
+### Querying Data in BigQuery
+
+With the data in BigQuery, we can perform complex SQL queries for in-depth data analysis.
+
