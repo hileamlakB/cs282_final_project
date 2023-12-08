@@ -1,0 +1,18 @@
+[
+    {"name": "ROW_ID", "type": "INTEGER", "mode": "REQUIRED"},
+    {"name": "SUBJECT_ID", "type": "INTEGER", "mode": "REQUIRED"},
+    {"name": "HADM_ID", "type": "INTEGER", "mode": "REQUIRED"},
+    {"name": "ICUSTAY_ID", "type": "INTEGER", "mode": "NULLABLE"},
+    {"name": "ITEMID", "type": "INTEGER", "mode": "REQUIRED"},
+    {"name": "CHARTTIME", "type": "TIMESTAMP", "mode": "REQUIRED"},
+    {"name": "STORETIME", "type": "TIMESTAMP", "mode": "NULLABLE"},
+    {"name": "CGID", "type": "INTEGER", "mode": "NULLABLE"},
+    {"name": "VALUE", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "VALUENUM", "type": "FLOAT", "mode": "NULLABLE"},
+    {"name": "VALUEUOM", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "WARNING", "type": "INTEGER", "mode": "NULLABLE"},
+    {"name": "ERROR", "type": "INTEGER", "mode": "NULLABLE"},
+    {"name": "RESULTSTATUS", "type": "STRING", "mode": "NULLABLE"},
+    {"name": "STOPPED", "type": "STRING", "mode": "NULLABLE"}
+  ]
+  
