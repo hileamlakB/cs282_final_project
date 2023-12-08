@@ -1466,11 +1466,11 @@ def compare_policies(policy1, policy2, reward1, reward2, name):
         # Loop over data dimensions and create text annotations.
         for i in range(closest_width):
             for j in range(len(data) // closest_width):
-                text = ax.text(j, i, f"{matrix[i, j]:.2f}", ha="center", va="center", color="w")
+                text = ax.text(j, i, f"{matrix[i, j]:.1f}", ha="center", va="center", color="w")
 
         # Set tick labels for the grid
-        ax.set_xticklabels([''] + list(range(1, closest_width)))
-        ax.set_yticklabels([''] + list(range(1, 11)))
+        ax.set_xticklabels([''] + list(range(1, closest_width + 1)))
+        ax.set_yticklabels([''] + list(range(1,  len(data) // closest_width + 1)))
         plt.title(title)
         plt.savefig(f'reward_matrix_{name}_{title}.png')
 
