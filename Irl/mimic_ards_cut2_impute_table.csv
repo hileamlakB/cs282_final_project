@@ -1,0 +1,11 @@
+feature,impute_value
+avg_serum_creatinine,1
+avg_lactate,1.8
+avg_blood_pressure,77
+avg_fio2,0.6
+avg_glasgow_coma_scale_gcs,11
+avg_heart_rate,86
+avg_body_temperature,37
+avg_respiratory_rate,19
+avg_tidal_volume,500
+avg_peep,5
